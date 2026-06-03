@@ -41,7 +41,21 @@ export default function Home() {
           文化を記録する。
         </h2>
         <p>
-          風、土、水、火。価値は、名前を持つ前に風景の中にある。
+          風の湿度、土の匂い、水の流れ、火の余韻。
+          <br />
+          <br />
+          価値はいつも、
+          <br />
+          名前を与えられる前から、
+          <br />
+          その土地の風景の中に静かに息づいている。
+          <br />
+          <br />
+          私が記録したいのは、
+          <br />
+          目に見える結果ではなく、
+          <br />
+          その奥でゆっくり育まれている時間そのものです。
         </p>
       </section>
 
@@ -51,7 +65,19 @@ export default function Home() {
           <p className="folio">02 / Travel Gastronomy</p>
           <h2 id="travel-title">旅は、味として残る。</h2>
           <p>
-            市場、海、葡萄畑。土地の記憶を、香りと温度で読む。
+            市場、海、葡萄畑。
+            <br />
+            <br />
+            旅先で出会う風景は、
+            <br />
+            やがて香りとなり、温度となり、
+            <br />
+            ひとつの体験へと姿を変える。
+            <br />
+            <br />
+            旅は記憶として残るのではなく、
+            <br />
+            最後には味として身体の中に残っていく。
           </p>
         </div>
       </section>
@@ -63,7 +89,20 @@ export default function Home() {
           <br />
           すぐに答えにしないこと。
           <br />
-          自然の速度で、価値を待つこと。
+          <br />
+          自然がそうであるように、
+          <br />
+          価値にもまた育つ時間がある。
+          <br />
+          <br />
+          待つこと。
+          <br />
+          観察すること。
+          <br />
+          耳を澄ますこと。
+          <br />
+          <br />
+          その先にしか見えないものがある。
         </h2>
       </section>
 
@@ -88,9 +127,25 @@ export default function Home() {
         <div className="background-image archive-photo"><span>production archive</span></div>
         <div>
           <p className="folio">05 / Background</p>
-          <h2 id="background-title">A field archive, not a profile.</h2>
+          <h2 id="background-title">
+            料理人であり、
+            <br />
+            観察者である。
+          </h2>
           <p>
-            市場、生産者、畑、漁港、発酵、研究。料理の前にある風景を集める。
+            旅先で出会う自然や文化、
+            <br />
+            土地に息づく記憶や技術。
+            <br />
+            <br />
+            それらを料理へ翻訳するために、
+            <br />
+            私は観察し、記録し続けている。
+            <br />
+            <br />
+            料理は表現ではなく、
+            <br />
+            土地と時間のアーカイブである。
           </p>
         </div>
       </section>

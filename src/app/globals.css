@@ -221,7 +221,9 @@ nav {
   background-size: cover;
   background:
     linear-gradient(180deg, rgb(255 250 241 / 12%), rgb(36 37 31 / 10%)),
-    url("/ai-ichinose-website/images/travel-sea.jpg"),
+    url("/ai-ichinose-website/images/travel-restaurant.jpg"),
+    url("/ai-ichinose-website/images/travel-restaurant.jpeg"),
+    url("/ai-ichinose-website/images/lab-research.jpeg"),
     radial-gradient(circle at 30% 18%, rgb(247 243 234 / 46%), transparent 24%),
     linear-gradient(155deg, rgb(126 160 162), rgb(213 199 174) 52%, rgb(88 115 117));
   box-shadow: 0 34px 80px var(--shadow);
@@ -288,9 +290,9 @@ nav {
 
 .lab-images {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: clamp(24px, 4vw, 64px);
-  align-items: start;
+  align-items: stretch;
 }
 
 .archive-photo {
@@ -327,26 +329,26 @@ nav {
 }
 
 .archive-photo.tall {
-  min-height: clamp(520px, 58vw, 820px);
+  min-height: clamp(520px, 48vw, 760px);
 }
 
 .lab-images .archive-photo:not(.tall) {
-  min-height: clamp(400px, 42vw, 640px);
+  min-height: clamp(520px, 48vw, 760px);
 }
 
 .lab-images .archive-photo:nth-child(1) {
-  grid-column: 1 / span 5;
+  grid-column: auto;
 }
 
 .lab-images .archive-photo:nth-child(2) {
-  grid-column: 7 / span 4;
-  transform: translateY(clamp(38px, 6vw, 92px));
+  grid-column: auto;
+  transform: none;
 }
 
 .lab-images .archive-photo:nth-child(3) {
-  grid-column: 4 / span 7;
-  min-height: clamp(480px, 50vw, 760px);
-  margin-top: clamp(70px, 10vw, 150px);
+  grid-column: auto;
+  min-height: clamp(520px, 48vw, 760px);
+  margin-top: 0;
 }
 
 .lab-fermentation {
