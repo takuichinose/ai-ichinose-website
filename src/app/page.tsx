@@ -36,12 +36,12 @@ export default function Home() {
       <section className="quiet-section philosophy" aria-labelledby="philosophy-title">
         <p className="folio">01 / Philosophy</p>
         <h2 id="philosophy-title">
-          旅、自然、文化、時間を、
+          自然を観察し、
           <br />
-          料理で再編集する。
+          文化を記録する。
         </h2>
         <p>
-          風の湿度、火の温度、食卓の沈黙。価値はいつも、名前を持つ前にそこにある。
+          風、土、水、火。価値は、名前を持つ前に風景の中にある。
         </p>
       </section>
 
@@ -49,9 +49,9 @@ export default function Home() {
         <div className="essay-image ocean" aria-hidden="true" />
         <div className="essay-copy">
           <p className="folio">02 / Travel Gastronomy</p>
-          <h2 id="travel-title">旅は、最後に味として残る。</h2>
+          <h2 id="travel-title">旅は、味として残る。</h2>
           <p>
-            市場、海、葡萄畑。土地の記憶は、香りと温度になって身体へ入ってくる。
+            市場、海、葡萄畑。土地の記憶を、香りと温度で読む。
           </p>
         </div>
       </section>
@@ -70,11 +70,11 @@ export default function Home() {
       <section className="lab-spread" aria-labelledby="soluna-title">
         <div>
           <p className="folio">04 / SOLUNA LAB</p>
-          <h2 id="soluna-title">火、水、土、発酵。</h2>
+          <h2 id="soluna-title">Fire, water, soil, fermentation.</h2>
         </div>
         <div className="lab-notes">
           <p>
-            レシピではなく、土地の記憶を扱う。発酵、熟成、観察のための静かな実験室。
+            レシピではなく、土地の記憶を扱うための観察記録。
           </p>
           <div className="lab-images" aria-label="SOLUNA LAB archive images">
             <div className="archive-photo tall lab-fermentation"><span>fermentation</span></div>
@@ -85,12 +85,12 @@ export default function Home() {
       </section>
 
       <section className="background-archive" aria-labelledby="background-title">
-        <div className="background-image archive-photo"><span>field record</span></div>
+        <div className="background-image archive-photo"><span>production archive</span></div>
         <div>
           <p className="folio">05 / Background</p>
-          <h2 id="background-title">料理人であり、観察者である。</h2>
+          <h2 id="background-title">A field archive, not a profile.</h2>
           <p>
-            旅先で見つけた自然と文化を、食の体験へ変換する。時間を味わうためのアーカイブ。
+            市場、生産者、畑、漁港、発酵、研究。料理の前にある風景を集める。
           </p>
         </div>
       </section>
